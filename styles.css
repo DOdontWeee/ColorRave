@@ -1,0 +1,208 @@
+.container {
+    width: 1110px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header {
+    background-color: #012D63;
+}
+.header-logo {
+    width: 100px;
+    height: 60px;
+}
+.header-text {
+    font-family: "roboto";
+    font-weight: 400;
+    font-size: 24px;
+    color: #fff;
+}
+.header-text:hover{ 
+    font-family: "roboto";
+    font-weight: 300;
+    font-size: 24px;
+    color: #c7c7c7;
+}
+.header-lang-btn {
+    font-family: "roboto";
+font-size: 24px;
+color: #dcdcdc;
+background-color: #012D63;
+border: 1px #012D63;
+}
+.header-lang-btn:hover {
+    font-family:"roboto";
+    font-weight: 300;
+    font-size: 24px;
+    color: #c7c7c7;
+}
+.hero {
+    background-image: url(./img/background1.jpg);
+}
+.hero-logo {
+    width: 160px;
+height: 120px;
+}
+.hero-name {
+    font-family: "PT serif";
+font-weight: 400;
+font-size: 48px;
+color: #fff;
+}
+.hero-title {
+    font-family: "Playfair display";
+font-weight: 400;
+font-size: 144px;
+color: #fff;
+}
+.hero-subtitle {
+    font-family: var(--second-family);
+font-weight: 400;
+font-size: 72px;
+color: #fff;
+}
+.hero-text {
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 18px;
+color: #fff;
+}
+.hero-button {
+    border-radius: 10px;
+width: 254px;
+height: 67px;
+background: #8e32c6;
+font-family: var(--font-family);
+font-weight: 400;
+font-size: 24px;
+color: #fff;
+border: 1px solid #8e32c6;
+}
+.benefits-text {
+    font-family: var(--second-family);
+font-weight: 400;
+font-size: 36px;
+text-align: center;
+color: #fff;
+}
+.benefits-icon {
+    width: 240px;
+height: 240px;
+}
+.benefits {
+    background-image: url(./img/background2.webp);
+}
+.reviews-title {
+    font-family: var(--second-family);
+font-weight: 400;
+font-size: 48px;
+text-align: center;
+color: #fff;
+}
+.reviews-text {
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 24px;
+color: #fff;
+}
+.reviews-date {
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 14px;
+color: #d8d8d8;
+}
+.reviews-img {
+    width: 31px;
+    height: 31px;
+}
+.reviews-name {
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 14px;
+color: #fff;
+}
+.reviews-since {
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 12px;
+color: #d8d8d8;
+}
+.reviews {
+    background-image: url(./img/background3.jpg);
+}
+.order-title
+{font-family: var(--second-family);
+font-weight: 400;
+font-size: 48px;
+color: #fff;
+}
+.order-group {
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 24px;
+color: #959595;
+}
+.order-confirm-btn {
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 28px;
+color: #8d8d8d;
+}
+.order-submit-btn {
+    border-radius: 16px;
+width: 248px;
+height: 68px;
+background-color: #8e32c6;
+font-family: var(--font-family);
+font-weight: 400;
+font-size: 24px;
+color: #fff;
+border: 1px solid #8e32c6;
+}
+.order {
+    background-image: url(./img/background4.jpg);
+}
+.footer-text {
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 24px;
+color: #fff;
+}
+.footer-link {
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 24px;
+text-decoration: underline;
+text-decoration-skip-ink: none;
+color: #fff;
+}
+.footer-copyright {
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 24px;
+text-decoration: underline;
+text-decoration-skip-ink: none;
+color: #fff;
+}
+.footer-location {
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 24px;
+text-decoration: underline;
+text-decoration-skip-ink: none;
+color: #fff;
+}
+.footer-logo {
+    width: 108px;
+height: 81px;
+}
+.footer-name{
+    font-family: var(--third-family);
+font-weight: 400;
+font-size: 24px;
+color: #fff;
+}
+.footer {
+    background-color: #021635;
+}
