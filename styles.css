@@ -39,6 +39,8 @@ border: 1px #012D63;
 }
 .hero {
     background-image: url(./img/background1.jpg);
+    background-position: center;
+    background-size: cover;
 }
 .hero-logo {
     width: 160px;
@@ -57,13 +59,13 @@ font-size: 144px;
 color: #fff;
 }
 .hero-subtitle {
-    font-family: var(--second-family);
+    font-family: "Playfair display";
 font-weight: 400;
 font-size: 72px;
 color: #fff;
 }
 .hero-text {
-    font-family: var(--font-family);
+    font-family: "roboto";
 font-weight: 400;
 font-size: 18px;
 color: #fff;
@@ -73,14 +75,14 @@ color: #fff;
 width: 254px;
 height: 67px;
 background: #8e32c6;
-font-family: var(--font-family);
+font-family: "roboto";
 font-weight: 400;
 font-size: 24px;
 color: #fff;
 border: 1px solid #8e32c6;
 }
 .benefits-text {
-    font-family: var(--second-family);
+    font-family: "Playfair display";
 font-weight: 400;
 font-size: 36px;
 text-align: center;
@@ -92,22 +94,24 @@ height: 240px;
 }
 .benefits {
     background-image: url(./img/background2.webp);
+    background-position: center;
+    background-size: cover;
 }
 .reviews-title {
-    font-family: var(--second-family);
+    font-family: "roboto";
 font-weight: 400;
 font-size: 48px;
 text-align: center;
 color: #fff;
 }
 .reviews-text {
-    font-family: var(--font-family);
+    font-family: "roboto";
 font-weight: 400;
 font-size: 24px;
 color: #fff;
 }
 .reviews-date {
-    font-family: var(--font-family);
+    font-family: "roboto";
 font-weight: 400;
 font-size: 14px;
 color: #d8d8d8;
@@ -117,44 +121,40 @@ color: #d8d8d8;
     height: 31px;
 }
 .reviews-name {
-    font-family: var(--font-family);
+    font-family: "roboto";
 font-weight: 400;
 font-size: 14px;
 color: #fff;
 }
 .reviews-since {
-    font-family: var(--font-family);
+    font-family: "roboto";
 font-weight: 400;
 font-size: 12px;
 color: #d8d8d8;
 }
 .reviews {
     background-image: url(./img/background3.jpg);
+    background-position: center;
+    background-size: cover;
 }
 .order-title
-{font-family: var(--second-family);
+{font-family: "Playfair display";
 font-weight: 400;
 font-size: 48px;
 color: #fff;
 }
 .order-group {
-    font-family: var(--font-family);
+    font-family: "roboto";
 font-weight: 400;
 font-size: 24px;
 color: #959595;
-}
-.order-confirm-btn {
-    font-family: var(--font-family);
-font-weight: 400;
-font-size: 28px;
-color: #8d8d8d;
 }
 .order-submit-btn {
     border-radius: 16px;
 width: 248px;
 height: 68px;
 background-color: #8e32c6;
-font-family: var(--font-family);
+font-family:"roboto";
 font-weight: 400;
 font-size: 24px;
 color: #fff;
@@ -162,15 +162,17 @@ border: 1px solid #8e32c6;
 }
 .order {
     background-image: url(./img/background4.jpg);
+    background-position: center;
+    background-size: cover;
 }
 .footer-text {
-    font-family: var(--font-family);
+    font-family: "roboto";
 font-weight: 400;
 font-size: 24px;
 color: #fff;
 }
 .footer-link {
-    font-family: var(--font-family);
+    font-family: "roboto";
 font-weight: 400;
 font-size: 24px;
 text-decoration: underline;
@@ -178,7 +180,7 @@ text-decoration-skip-ink: none;
 color: #fff;
 }
 .footer-copyright {
-    font-family: var(--font-family);
+    font-family: "roboto";
 font-weight: 400;
 font-size: 24px;
 text-decoration: underline;
@@ -198,7 +200,7 @@ color: #fff;
 height: 81px;
 }
 .footer-name{
-    font-family: var(--third-family);
+    font-family:'pt serif';
 font-weight: 400;
 font-size: 24px;
 color: #fff;
