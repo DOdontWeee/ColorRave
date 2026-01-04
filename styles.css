@@ -1,5 +1,5 @@
 .container {
-    width: 1110px;
+    width: 1140px;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
@@ -7,68 +7,100 @@
 }
 .header {
     background-color: #012D63;
+    height: 90px;
 }
+.container-header {
+  display: flex;
+  align-items: center;
+
+}
+.header-list {
+  display: flex;
+  gap: 39px;
+}
+
 .header-logo {
     width: 100px;
     height: 60px;
+    margin-top: 16px;
+    margin-bottom: 14px;
+    margin-right: 110px;
 }
+
 .header-text {
+        font-family: "roboto";
+    font-weight: 300;
+    font-size: 24px;
+    color: #c7c7c7;
+}
+.header-text:hover{ 
     font-family: "roboto";
     font-weight: 400;
     font-size: 24px;
     color: #fff;
 }
-.header-text:hover{ 
-    font-family: "roboto";
-    font-weight: 300;
-    font-size: 24px;
-    color: #c7c7c7;
-}
+
 .header-lang-btn {
     font-family: "roboto";
 font-size: 24px;
-color: #dcdcdc;
+color: #c7c7c7;
 background-color: #012D63;
 border: 1px #012D63;
+  margin-left: 73px;
+  cursor: pointer;
 }
 .header-lang-btn:hover {
     font-family:"roboto";
     font-weight: 300;
     font-size: 24px;
-    color: #c7c7c7;
+    color: #dcdcdc;
 }
 .hero {
     background-image: url(./img/background1.jpg);
     background-position: center;
     background-size: cover;
+    min-height: 858px;
+    display: flex;
+  align-items: center;
 }
 .hero-logo {
     width: 160px;
 height: 120px;
+border: 1px solid red;
+padding-bottom: 0px;
 }
 .hero-name {
     font-family: "PT serif";
 font-weight: 400;
 font-size: 48px;
 color: #fff;
+padding-left: 31px;
+border: 1px solid red;
 }
 .hero-title {
     font-family: "Playfair display";
 font-weight: 400;
 font-size: 144px;
 color: #fff;
+border: 1px solid red;
 }
+
 .hero-subtitle {
     font-family: "Playfair display";
 font-weight: 400;
 font-size: 72px;
 color: #fff;
+border: 1px solid red;
 }
 .hero-text {
     font-family: "roboto";
 font-weight: 400;
 font-size: 18px;
 color: #fff;
+width: 508px;
+height: 84px;
+border: 1px solid red;
+margin-top: 12px;
 }
 .hero-button {
     border-radius: 10px;
@@ -80,6 +112,10 @@ font-weight: 400;
 font-size: 24px;
 color: #fff;
 border: 1px solid #8e32c6;
+margin-top: 42px;
+}
+.benefits-item {
+    display: flex;
 }
 .benefits-text {
     font-family: "Playfair display";
