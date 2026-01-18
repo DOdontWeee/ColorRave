@@ -11,6 +11,7 @@
 .container-header {
   display: flex;
   align-items: center;
+  justify-content: center;
 
 }
 .header-list {
@@ -168,8 +169,13 @@ height: 240px;
     background-position: center;
     background-size: cover;
 }
-.reviews {
-
+.reviews-middle {
+    display: flex;
+    padding-top: 50px;
+}
+.reviews-last {
+    display: block;
+    justify-content: c;
 }
 
 .reviews .container {
